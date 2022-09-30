@@ -17,29 +17,32 @@
         </div>
         <div id="nav-content" class="nav-content">
           <a href="javascript:void(0)" id="nav-link" class="closeMenu" style="text-align:right;padding-right:15px" onclick="document.getElementById('nav-content').style.display='none'">x</a>
-          <a href="javascript:void(0)" id="nav-link">Home</a>
-          <a href="/list-of-novels.html" id="nav-link">Light Novels</a>
+          <a href="index.html" id="nav-link">Home</a>
         </div>
       </nav>
       
-      <div class="post-recommendation">
-        <h4 style="color:orange;padding:10px;border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#000">Recommended</h4>
-        <!-- Post Items -->
-        <div class="post-item">
-          <img id="post-cover" src="/covers/chitose.jpg" alt="Cover"/>
-          <h5 id="post-title">Chitose is in the Ramune Bottle</h5>
-          <p><a href="#">View Full Description</a></p>
+      
+      <div class="main">
+        <h4 style="color:orange;padding:10px;border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#000">List of Novels</h4>
+        <div class="list">
+          <a href="#">Classroom of the Elite</a>
+          <a href="#">Chitose is in the Ramune Bottle</a>
+          <a href="#">I started a part-time job at a lover agency service. I don't know why, but I received requests from many beautiful girls</a>
         </div>
-        <div class="post-item">
-          <img id="post-cover" src="/covers/i-started-working-as-a-lover-agent.png" alt="Cover"/>
-          <h5 id="post-title">I started a part-time job at a lover agency service. I don't know why, but I received requests from many beautiful girls</h5>
-          <p><a href="#">View Full Description</a></p>
-        </div>
-        <div class="post-item">
-          <img id="post-cover" src="/covers/LN_2nd_Year_Vol_03_cover.jpg" alt="Cover"/>
-          <h5 id="post-title">Classroom of the Elite</h5>
-          <p><a href="#">View Full Description</a></p>
-        </div>
+        <style>
+          div.list{margin: 10px 0px;padding-bottom: 20px;
+            display: flex;
+            flex-direction: column;
+          }
+          div.list a{
+            max-width: 100%;
+            padding: 15px;
+            margin: 5px 10px;
+            border:1px solid black;
+            text-decoration: none;
+            border-radius: 10px
+          }
+        </style>
       </div>
       
       <!-- Footer -->
