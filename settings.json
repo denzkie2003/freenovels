@@ -1,0 +1,16 @@
+{
+  "filter_option": {
+    "trending": {
+      "status":"RELEASING",
+      "format":"TV"
+    },
+    "popular": {
+      "status":"FINISHED",
+      "format":"TV"
+    },
+    "upcoming": {
+      "status":"NOT_YET_RELEASED",
+      "format":"TV"
+    }
+  }
+}
